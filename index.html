@@ -3,41 +3,90 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Trolley App - Privacy Policy</title>
+  <title>TrolleyApplication - Privacy Policy</title>
   <style>
-    body {font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;padding:30px;line-height:1.6;color:#222;background:#fff;}
-    nav {margin-bottom:30px;display:flex;flex-wrap:wrap;gap:8px;}
-    nav a {padding:6px 10px;text-decoration:none;color:#0066cc;border:1px solid #0066cc;border-radius:5px;}
-    nav a.active {background:#0066cc;color:white;}
-    section {max-width:900px;margin:auto;}
+    body {
+      font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+      padding: 30px;
+      line-height: 1.6;
+      color: #222;
+      background: #fff;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      text-align: left;
+    }
+    /* RTL برای زبان‌های مثل فارسی و عربی */
+    .rtl {
+      direction: rtl;
+      text-align: right;
+    }
+    label {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    select {
+      padding: 6px 10px;
+      font-size: 16px;
+    }
   </style>
 </head>
 <body>
-  <h1>TrolleyApplication — Privacy Policy</h1>
-  <p>Select your language</p>
+  <h1 id="title">TrolleyApplication — Privacy Policy</h1>
 
-  <nav id="language-menu"></nav>
+  <!-- 🌍 منوی انتخاب زبان -->
+  <div style="margin-bottom:20px;">
+    <label for="languageSelect">🌐 Select Language:</label>
+    <select id="languageSelect"></select>
+  </div>
+
   <section id="content"></section>
 
   <script src="translations.js"></script>
   <script>
-    const menu = document.getElementById('language-menu');
-    const content = document.getElementById('content');
+    const languageSelect = document.getElementById('languageSelect');
+    const titleElement = document.getElementById('title');
+    const contentElement = document.getElementById('content');
 
-    Object.keys(texts).forEach(lang => {
-      const a = document.createElement('a');
-      a.textContent = texts[lang].name;
-      a.href = "#";
-      a.onclick = e => {
-        e.preventDefault();
-        document.querySelectorAll('nav a').forEach(x => x.classList.remove('active'));
-        a.classList.add('active');
-        content.innerHTML = texts[lang].text;
-      };
-      menu.appendChild(a);
+    // 🟩 پر کردن منوی انتخاب زبان
+    Object.keys(translations).forEach(lang => {
+      const opt = document.createElement('option');
+      opt.value = lang;
+      opt.textContent = translations[lang].name;
+      languageSelect.appendChild(opt);
     });
-    content.innerHTML = texts['en'].text;
-    menu.querySelector('a').classList.add('active');
+
+    // 🟩 تابع تغییر زبان
+    function changeLanguage(lang) {
+      const selected = translations[lang];
+      if (selected) {
+        titleElement.innerHTML = selected.title;
+        contentElement.innerHTML = selected.content;
+
+        // بررسی راست به چپ بودن
+        if (['fa','ar','ur'].includes(lang)) {
+          contentElement.classList.add('rtl');
+        } else {
+          contentElement.classList.remove('rtl');
+        }
+
+        // ذخیره زبان انتخابی در localStorage
+        localStorage.setItem('preferredLang', lang);
+      }
+    }
+
+    // 🟨 بارگذاری زبان ذخیره شده یا انگلیسی
+    window.onload = () => {
+      const savedLang = localStorage.getItem('preferredLang') || 'en';
+      languageSelect.value = savedLang;
+      changeLanguage(savedLang);
+    };
+
+    // 🟩 تغییر زبان هنگام انتخاب از dropdown
+    languageSelect.addEventListener('change', () => {
+      changeLanguage(languageSelect.value);
+    });
   </script>
 </body>
 </html>
