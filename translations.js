@@ -23,7 +23,7 @@ const translations = {
   },
 
   // ------------------ Arabic ------------------
-  ar: { name: "🇸🇦 Arabic",
+  ar: { name: "🇸🇦 العربية",
     title: "سياسة الخصوصية",
     content: `
       <p><strong>آخر تحديث:</strong> أكتوبر 2025</p>
@@ -34,7 +34,7 @@ const translations = {
   },
 
   // ------------------ Azerbaijani ------------------
-  az: { name: "🇦🇿 Azerbaijani",
+  az: { name: "🇦🇿 Azərbaycan",
     title: "Məxfilik siyasəti",
     content: `
       <p><strong>Son yeniləmə:</strong> Oktyabr 2025</p>
@@ -45,7 +45,7 @@ const translations = {
   },
 
   // ------------------ Bulgarian ------------------
-  bg: { name: "🇧🇬 Bulgarian",
+  bg: { name: "🇧🇬 Български",
     title: "Политика за поверителност",
     content: `
       <p><strong>Последна актуализация:</strong> Октомври 2025</p>
@@ -56,7 +56,7 @@ const translations = {
   },
 
   // ------------------ Bengali ------------------
-  bn: { name: "🇧🇩 Bangladeshi",
+  bn: { name: "🇧🇩 বাংলা",
     title: "গোপনীয়তা নীতি",
     content: `
       <p><strong>সর্বশেষ আপডেট:</strong> অক্টোবর ২০২৫</p>
@@ -67,7 +67,7 @@ const translations = {
   },
 
   // ------------------ Czech ------------------
-  cs: { name: "🇨🇿 Czech",
+  cs: { name: "🇨🇿 Čeština",
     title: "Zásady ochrany osobních údajů",
     content: `
       <p><strong>Naposledy aktualizováno:</strong> Říjen 2025</p>
@@ -78,7 +78,7 @@ const translations = {
   },
 
   // ------------------ Danish ------------------
-  da: { name: "🇩🇰 Danish",
+  da: { name: "🇩🇰 Dansk",
     title: "Fortrolighedspolitik",
     content: `
       <p><strong>Sidst opdateret:</strong> Oktober 2025</p>
@@ -89,7 +89,7 @@ const translations = {
   },
 
   // ------------------ German ------------------
-  de: { name: "🇩🇪 German",
+  de: { name: "🇩🇪 Deutsch",
     title: "Datenschutzrichtlinie",
     content: `
       <p><strong>Zuletzt aktualisiert:</strong> Oktober 2025</p>
@@ -100,7 +100,7 @@ const translations = {
   },
 
   // ------------------ Greek ------------------
-  el: { name: "🇬🇷 Greek",
+  el: { name: "🇬🇷 Ελληνικά",
     title: "Πολιτική απορρήτου",
     content: `
       <p><strong>Τελευταία ενημέρωση:</strong> Οκτώβριος 2025</p>
@@ -111,7 +111,7 @@ const translations = {
   },
 
   // ------------------ Spanish ------------------
-  es: { name: "🇪🇸 Spanish",
+  es: { name: "🇪🇸 Español",
     title: "Política de Privacidad",
     content: `
       <p><strong>Última actualización:</strong> Octubre 2025</p>
@@ -133,7 +133,7 @@ const translations = {
   },
 
   // ------------------ Finnish ------------------
-  fi: { name: "🇫🇮 Finnish",
+  fi: { name: "🇫🇮 Suomi",
     title: "Tietosuojakäytäntö",
     content: `
       <p><strong>Päivitetty viimeksi:</strong> Lokakuu 2025</p>
@@ -155,7 +155,7 @@ const translations = {
   },
 
   // ------------------ French ------------------
-  fr: { name: "🇫🇷 French",
+  fr: { name: "🇫🇷 Français",
     title: "Politique de confidentialité",
     content: `
       <p><strong>Dernière mise à jour :</strong> Octobre 2025</p>
@@ -166,7 +166,7 @@ const translations = {
   },
   
   // ------------------ Hindi ------------------
-  hi: { name: "🇮🇳 Hindi",
+  hi: { name: "🇮🇳 हिंदी",
     title: "गोपनीयता नीति",
     content: `
       <p><strong>अंतिम अपडेट:</strong> अक्टूबर 2025</p>
@@ -177,7 +177,7 @@ const translations = {
   },
 
   // ------------------ Croatian ------------------
-  hr: { name: "🇭🇷 Croatian",
+  hr: { name: "🇭🇷 Hrvatski",
     title: "Politika privatnosti",
     content: `
       <p><strong>Zadnje ažuriranje:</strong> Listopad 2025</p>
@@ -188,7 +188,7 @@ const translations = {
   },
 
   // ------------------ Hungarian ------------------
-  hu: { name: "🇭🇺 Hungarian",
+  hu: { name: "🇭🇺 Magyar",
     title: "Adatvédelmi irányelvek",
     content: `
       <p><strong>Utoljára frissítve:</strong> 2025. október</p>
@@ -199,7 +199,7 @@ const translations = {
   },
 
   // ------------------ Armenian ------------------
-  hy: { name: "🇦🇲 Armenian",
+  hy: { name: "🇦🇲 Հայերեն",
     title: "Գաղտնիության քաղաքականություն",
     content: `
       <p><strong>Վերջին թարմացում՝</strong> Հոկտեմբեր 2025</p>
@@ -210,7 +210,7 @@ const translations = {
   },
 
   // ------------------ Indonesian ------------------
-  id: { name: "🇮🇩 Indonesian",
+  id: { name: "🇮🇩 Bahasa Indonesia",
     title: "Kebijakan Privasi",
     content: `
       <p><strong>Pembaruan terakhir:</strong> Oktober 2025</p>
@@ -221,7 +221,7 @@ const translations = {
   },
 
   // ------------------ Italian ------------------
-  it: { name: "🇮🇹 Italian",
+  it: { name: "🇮🇹 Italiano",
     title: "Informativa sulla privacy",
     content: `
       <p><strong>Ultimo aggiornamento:</strong> Ottobre 2025</p>
@@ -232,7 +232,7 @@ const translations = {
   },
 
   // ------------------ Japanese ------------------
-  ja: { name: "🇯🇵 Japanese",
+  ja: { name: "🇯🇵 日本語",
     title: "プライバシーポリシー",
     content: `
       <p><strong>最終更新:</strong> 2025年10月</p>
@@ -243,7 +243,7 @@ const translations = {
   },
 
   // ------------------ Georgian ------------------
-  ka: { name: "🇬🇪 Georgian",
+  ka: { name: "🇬🇪 ქართული",
     title: "კონფიდენციალურობის პოლიტიკა",
     content: `
       <p><strong>ბოლო განახლება:</strong> ოქტომბერი 2025</p>
@@ -254,7 +254,7 @@ const translations = {
   },
 
   // ------------------ Korean ------------------
-  ko: { name: "🇰🇷 Korean",
+  ko: { name: "🇰🇷 한국어",
     title: "개인정보 보호정책",
     content: `
       <p><strong>최종 업데이트:</strong> 2025년 10월</p>
@@ -265,7 +265,7 @@ const translations = {
   },
 
   // ------------------ Malay ------------------
-  ms: { name: "🇲🇾 Malay",
+  ms: { name: "🇲🇾 Bahasa Melayu",
     title: "Dasar Privasi",
     content: `
       <p><strong>Kemaskini terakhir:</strong> Oktober 2025</p>
@@ -276,7 +276,7 @@ const translations = {
   },
 
   // ------------------ Norwegian ------------------
-  no: { name: "🇳🇴 Norwegian",
+  no: { name: "🇳🇴 Norsk",
     title: "Personvernregler",
     content: `
       <p><strong>Sist oppdatert:</strong> Oktober 2025</p>
@@ -287,7 +287,7 @@ const translations = {
   },
 
   // ------------------ Dutch ------------------
-  nl: { name: "🇳🇱 Dutch",
+  nl: { name: "🇳🇱 Nederlands",
     title: "Privacybeleid",
     content: `
       <p><strong>Laatst bijgewerkt:</strong> Oktober 2025</p>
@@ -298,7 +298,7 @@ const translations = {
   },
 
   // ------------------ Polish ------------------
-  pl: { name: "🇵🇱 Polish",
+  pl: { name: "🇵🇱 Polski",
     title: "Polityka prywatności",
     content: `
       <p><strong>Ostatnia aktualizacja:</strong> Październik 2025</p>
@@ -309,7 +309,7 @@ const translations = {
   },
 
   // ------------------ Portuguese ------------------
-  pt: { name: "🇵🇹 Portuguese",
+  pt: { name: "🇵🇹 Português",
     title: "Política de Privacidade",
     content: `
       <p><strong>Última atualização:</strong> Outubro de 2025</p>
@@ -320,7 +320,7 @@ const translations = {
   },
 
   // ------------------ Romanian ------------------
-  ro: { name: "🇷🇴 Romanian",
+  ro: { name: "🇷🇴 Română",
     title: "Politica de confidențialitate",
     content: `
       <p><strong>Ultima actualizare:</strong> Octombrie 2025</p>
@@ -331,7 +331,7 @@ const translations = {
   },
 
   // ------------------ Russian ------------------
-  ru: { name: "🇷🇺 Russian",
+  ru: { name: "🇷🇺 Русский",
     title: "Политика конфиденциальности",
     content: `
       <p><strong>Последнее обновление:</strong> Октябрь 2025</p>
@@ -342,7 +342,7 @@ const translations = {
   },
 
   // ------------------ Slovak ------------------
-  sk: { name: "🇸🇰 Slovak",
+  sk: { name: "🇸🇰 Slovenčina",
     title: "Zásady ochrany osobných údajov",
     content: `
       <p><strong>Naposledy aktualizované:</strong> Október 2025</p>
@@ -353,7 +353,7 @@ const translations = {
   },
   
   // ------------------ Slovenian ------------------
-  sl: { name: "🇸🇮 Slovenian",
+  sl: { name: "🇸🇮 Slovenščina",
     title: "Politika zasebnosti",
     content: `
       <p><strong>Zadnja posodobitev:</strong> Oktober 2025</p>
@@ -364,7 +364,7 @@ const translations = {
   },
 
   // ------------------ Albanian ------------------
-  sq: { name: "🇦🇱 Albanian",
+  sq: { name: "🇦🇱 Shqip",
     title: "Politika e privatësisë",
     content: `
       <p><strong>Përditësimi i fundit:</strong> Tetor 2025</p>
@@ -375,7 +375,7 @@ const translations = {
   },
 
   // ------------------ Serbian ------------------
-  sr: { name: "🇷🇸 Serbian",
+  sr: { name: "🇷🇸 Српски",
     title: "Politika privatnosti",
     content: `
       <p><strong>Poslednje ažuriranje:</strong> Oktobar 2025</p>
@@ -386,7 +386,7 @@ const translations = {
   },
 
   // ------------------ Swedish ------------------
-  sv: { name: "🇸🇪 Swedish",
+  sv: { name: "🇸🇪 Svenska",
     title: "Integritetspolicy",
     content: `
       <p><strong>Senast uppdaterad:</strong> Oktober 2025</p>
@@ -397,7 +397,7 @@ const translations = {
   },
 
   // ------------------ Tajik ------------------
-  tg: { name: "🇹🇯 Tajik",
+  tg: { name: "🇹🇯 Тоҷикӣ",
     title: "Сиёсати махфият",
     content: `
       <p><strong>Навсозии охирин:</strong> Октябри 2025</p>
@@ -408,7 +408,7 @@ const translations = {
   },
 
   // ------------------ Thai ------------------
-  th: { name: "🇹🇭 Thai",
+  th: { name: "🇹🇭 ไทย",
     title: "นโยบายความเป็นส่วนตัว",
     content: `
       <p><strong>อัปเดตล่าสุด:</strong> ตุลาคม 2025</p>
@@ -419,7 +419,7 @@ const translations = {
   },
 
   // ------------------ Turkmen ------------------
-  tk: { name: "🇹🇲 Turkmen",
+  tk: { name: "🇹🇲 Türkmen",
     title: "Gizlinlik syýasaty",
     content: `
       <p><strong>Soňky täzelenme:</strong> Oktýabr 2025</p>
@@ -430,7 +430,7 @@ const translations = {
   },
 
   // ------------------ Turkish ------------------
-  tr: { name: "🇹🇷 Turkish",
+  tr: { name: "🇹🇷 Türkçe",
     title: "Gizlilik Politikası",
     content: `
       <p><strong>Son güncelleme:</strong> Ekim 2025</p>
@@ -441,7 +441,7 @@ const translations = {
   },
 
   // ------------------ Urdu (Pakistan) ------------------
-  ur: { name: "🇵🇰 Urdu",
+  ur: { name: "🇵🇰 اردو",
     title: "رازداری کی پالیسی",
     content: `
       <p><strong>آخری اپ ڈیٹ:</strong> اکتوبر 2025</p>
@@ -452,7 +452,7 @@ const translations = {
   },
 
   // ------------------ Vietnamese ------------------
-  vi: { name: "🇻🇳 Vietnamese",
+  vi: { name: "🇻🇳 Tiếng Việt",
     title: "Chính sách bảo mật",
     content: `
       <p><strong>Cập nhật lần cuối:</strong> Tháng 10 năm 2025</p>
@@ -463,7 +463,7 @@ const translations = {
   },
 
   // ------------------ Chinese (Simplified) ------------------
-  zh: { name: "🇨🇳 Chinese",
+  zh: { name: "🇨🇳 中文",
     title: "隐私政策",
     content: `
       <p><strong>最后更新：</strong> 2025年10月</p>
