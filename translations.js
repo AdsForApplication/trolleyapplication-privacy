@@ -1,6 +1,6 @@
 const translations = {
   // ------------------ English ------------------
-  en: {
+  en: { name: "🇺🇸 English",
     title: "Privacy Policy",
     content: `
       <p><strong>Last updated:</strong> October 2025</p>
@@ -463,7 +463,7 @@ const translations = {
   },
 
   // ------------------ Chinese (Simplified) ------------------
-  zh: {
+  zh: { name: "🇨🇳 中文",
     title: "隐私政策",
     content: `
       <p><strong>最后更新：</strong> 2025年10月</p>
