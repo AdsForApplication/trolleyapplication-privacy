@@ -15,7 +15,7 @@ const translations = {
       </p>
 
       <p>
-      We take reasonable measures to protect your personal information and is never sold or shared with third parties for marketing purposes. Information is used only to provide and improve the services available within the app.
+      We take reasonable measures to protect your personal information and they never sold or shared with third parties for marketing purposes. Information is used only to provide and improve the services available within the app.
       </p>
 
       <p>
